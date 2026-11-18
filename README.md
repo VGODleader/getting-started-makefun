@@ -26,6 +26,7 @@ This guide walks you from "never heard of it" to your first submitted entry.
 - [Step 5 — Submit](#step-5--submit)
 - [Step 6 — Read the verdict and fix what failed](#step-6--read-the-verdict-and-fix-what-failed)
 - [Step 7 — Claim the prize](#step-7--claim-the-prize)
+- [Five mistakes that get entries rejected](#five-mistakes-that-get-entries-rejected)
 - [Run it](#run-it)
 - [Let your agent drive the whole thing](#let-your-agent-drive-the-whole-thing)
 - [Your own referral link](#your-own-referral-link)
@@ -148,6 +149,22 @@ Answer `--us-person` honestly (`yes` if you are a US person). The prize moves in
 that signed the winning entry, after an automatic sanctions screening. Tax paperwork only appears if the
 law requires it for your totals.
 
+## Five mistakes that get entries rejected
+
+Every rejection prints its reason, but these five cause most of them — and all five are free to avoid:
+
+1. **Building in an old session.** If your agent session started before the bounty opened, nothing built in
+   it can be entered. Open a fresh session after the opening time and rebuild there.
+2. **Shipping the starter unchanged.** The kit's sample files are the kit's work, not yours. The transcript
+   gate counts only lines your own sessions wrote, so rewrite the starter into something of your own.
+3. **Forgetting the license.** No OSI-approved license file at the submitted commit, no entry. Add it first,
+   not last.
+4. **A private or borrowed repository.** The repo must be public, and its owner must be the GitHub account
+   linked to the make.fun account that enters. A teammate's repo, or a fork under another name, fails the
+   ownership check.
+5. **Submitting before checking.** `node cli/makefun.mjs check` runs the site's own pre-submit checks
+   locally. Skipping it turns a free fix into a spent daily entry.
+
 ## Run it
 
 Want to see the whole loop before reading another word? Hand your agent a bounty kit and watch it work:
@@ -214,6 +231,14 @@ an entry is good enough is your job; the agent writes the code.
 The kit finds the session logs of Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, opencode, Cline,
 Aider and dozens of other harnesses on its own. If yours keeps no readable log, its sessions can be handed
 over in the format the skill file describes.
+</details>
+
+<details>
+<summary><strong>How does a guide bounty like this one decide its winner?</strong></summary>
+
+By verified human signups. Readers who create an account through the guide's referral link are counted once
+make.fun's review confirms each one is a real new participant, and the guide whose link brings the most of
+them takes the top place. A polished page matters only because it earns the click honestly.
 </details>
 
 <details>
